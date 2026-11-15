@@ -140,44 +140,44 @@ const data = {
     },
     {
       title: "Registration",
-      url: "#",
+      url: "/registration",
       icon: <HugeiconsIcon icon={AddInvoiceIcon} strokeWidth={2} />,
       items: [
         {
           title: "Packhouse/WareHouse/Store",
-          url: "#",
+          url: "/registration/warehouse",
         },
         {
           title: "Packhouse Lease",
-          url: "#",
+          url: "/registration/packhouse-lease",
         },
         {
           title: "Conference Space",
-          url: "#",
+          url: "/registration/conference-space",
         },
         {
           title: "Packhouse Change",
-          url: "#",
+          url: "/registration/packhouse-change",
         },
         {
           title: "Plantation Grower Association",
-          url: "#",
+          url: "/registration/growers-association",
         },
       ],
     },
     {
       title: "Licenses",
-      url: "#",
+      url: "/license-application",
       icon: <HugeiconsIcon icon={LicenseIcon} strokeWidth={2} />,
       items: [
         {
           title: "Export",
-          url: "#",
+          url: "/license-application/export",
         },
         
         {
           title: "Import",
-          url: "#",
+          url: "/license-application/import",
         },
         
       ],
