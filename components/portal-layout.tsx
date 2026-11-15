@@ -7,7 +7,6 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
-import { greeting } from "@/lib/time";
 // import { useSession } from "@/stores/session";
 
 export function PortalLayout({ children }: { children: ReactNode }) {

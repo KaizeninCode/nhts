@@ -1,6 +1,5 @@
 "use client";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { greeting } from "@/lib/time";
 import { Separator } from "@/components/ui/separator";
 
 import * as React from "react";
