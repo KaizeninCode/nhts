@@ -13,7 +13,6 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
-import { greeting } from "@/lib/time";
 
 export default function Page() {
   return (
@@ -36,7 +35,7 @@ export default function Page() {
           <div className="rounded-xl bg-linear-to-r from-green-900 to-green-700 aspect-video h-1/8 flex items-center">
             <div className="p-4">
               <h1 className="text-3xl font-bold text-white">
-                {`${greeting()}`}, Test User.
+                Hello, Test User.
               </h1>
               <p className="text-lg font-light text-slate-400">
                 Let's pick up where you left off.
